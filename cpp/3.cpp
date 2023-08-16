@@ -9,5 +9,6 @@ int main (){
    cout<<"enter b:";
     cin>>b;
    cout<<b;
+   cout<<"sum a+b:\n"<<a+b;
     return 0;
 }

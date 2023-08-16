@@ -5,10 +5,10 @@ int main (){
     int b;
     cout <<"enter a:";
     cin>>a;
-   cout<<a;
+ //  cout<<a;
    cout<<"enter b:";
     cin>>b;
-   cout<<b;
+  // cout<<b;
    cout<<"sum a+b:\n"<<a+b;
     return 0;
 }

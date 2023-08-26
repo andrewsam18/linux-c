@@ -6,7 +6,6 @@ class aclass{
 cout <<"hello";
     }
 };
-
 int main(){
      aclass object;
      object.printhello();

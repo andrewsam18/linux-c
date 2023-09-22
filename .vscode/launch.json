@@ -5,6 +5,21 @@
         {
             "type": "cmake",
             "request": "launch",
+            "name": "CMake: Script debugging",
+            "cmakeDebugType": "script",
+            "scriptPath": "${workspaceFolder}/<...>.cmake"
+        },
+        {
+            "type": "cmake",
+            "request": "launch",
+            "name": "CMake: Externally launched",
+            "cmakeDebugType": "external",
+            "pipeName": "<...>"
+        },
+        
+        {
+            "type": "cmake",
+            "request": "launch",
             "name": "CMake: Externally launched",
             "cmakeDebugType": "external",
             "pipeName": "<...>"

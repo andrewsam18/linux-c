@@ -14,4 +14,5 @@ int x1=10;
 passbyreference(&x1);
 cout<<x1<<endl;
     return 0;
-}
+}//1-10(x)
+//2-45(a)

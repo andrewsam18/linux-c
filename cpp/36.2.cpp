@@ -3,19 +3,27 @@ using namespace std;
 
 template<class T>
 class number{
+T first;
+T second;
+public:
+number(T a,T b){
+first=a;
+second=b;
 
-
-
-
-6.07
-{
-    return a+b;
-}};
+}
+T larger(){
+    if (first >second)
+    {
+        return first;
+    }
+    return second;
+    
+}
+};
 //we use this types to give any datatypes like int, double,float
 int main(){
-    int a=5;
- double  b=7.5;
-    cout<<add(a,b)<<endl;
+  number<int> numbers(5,6);
+  cout <<numbers.larger()<<endl;
         return 0;
 }
 

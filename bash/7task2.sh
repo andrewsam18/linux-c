@@ -1,7 +1,9 @@
 #!/bin/bash
 
-#read -p "enter username:" username
-#read -p "enter the IP:" IP
+# read -p "Enter username: " username
+# read -p "Enter the IP: " IP
+
 username=$1
 IP=$2
+
 ssh $username@$IP

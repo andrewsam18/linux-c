@@ -23,8 +23,18 @@ read -p "enter n2:" n2
 
 echo "Relational Operators"
 if [ $n1 -eq $n2 -o $n1 -gt 1 ]
+#if [ $n1 -ge $n2 ]
+#if [ $n1 -lt $n2 ]
+#if [ $n1 -le $n2 ]
+#if [ $n1 -eq $n2 ]
+#if [ $n1 -eq $n2 -a $n1 -gt 1 ]
 then
 
 echo "n1 = n2"
 
 fi
+#gt =great then
+#ge 
+#lt
+#le
+#ne
